@@ -1,8 +1,8 @@
 const livros = [
-    { titulo = "php", preco: 15.60, descricao: "aprenda php na pratica"}
-    {titulo = "phyton", preco: 20.00, descricao: "aprenda phyton na pratica"}
-    {titulo = "java", preco: 30.00, descricao: "aprenda java na pratica"}
+    { titulo: "php", preco: 15.60, descricao: "aprenda php na prática"  },
+    { titulo: "python", preco: 20.00, descricao: "aprenda python na prática" },
+    { titulo: "java", preco: 30.00, descricao: "aprenda java na prática"  }
 ]
 
-const livroselecionado = livros.filter(livros => livros.titulo === "php")
+const livroselecionado = livros.filter(livro => livro.preco >= 20)
 console.log(livroselecionado)
